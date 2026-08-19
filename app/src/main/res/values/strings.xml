@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AnonymousTunnel</string>
+    <string name="app_name_short">AnonTunnel</string>
+
+    <!-- Status -->
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_connecting">Connecting...</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_reconnecting">Reconnecting...</string>
+    <string name="status_error">Error</string>
+
+    <!-- Buttons -->
+    <string name="btn_connect">CONNECT</string>
+    <string name="btn_disconnect">DISCONNECT</string>
+    <string name="btn_save">SAVE</string>
+    <string name="btn_cancel">CANCEL</string>
+    <string name="btn_delete">DELETE</string>
+    <string name="btn_import">IMPORT</string>
+    <string name="btn_export">EXPORT</string>
+
+    <!-- Menu -->
+    <string name="menu_settings">Settings</string>
+    <string name="menu_logs">Logs</string>
+    <string name="menu_about">About</string>
+    <string name="menu_exit">Exit</string>
+
+    <!-- Config -->
+    <string name="config_name">Config Name</string>
+    <string name="config_server">Server Address</string>
+    <string name="config_port">Port</string>
+    <string name="config_username">Username</string>
+    <string name="config_password">Password</string>
+    <string name="config_uuid">UUID</string>
+    <string name="config_path">Path</string>
+    <string name="config_host">Host</string>
+    <string name="config_sni">SNI</string>
+    <string name="config_payload">Payload</string>
+
+    <!-- Protocols -->
+    <string name="protocol_ssh">SSH</string>
+    <string name="protocol_vless">VLess</string>
+    <string name="protocol_vmess">VMess</string>
+    <string name="protocol_trojan">Trojan</string>
+    <string name="protocol_shadowsocks">Shadowsocks</string>
+    <string name="protocol_dnstt">DNSTT</string>
+
+    <!-- Settings -->
+    <string name="setting_kill_switch">Kill Switch</string>
+    <string name="setting_kill_switch_desc">Block internet when VPN disconnects</string>
+    <string name="setting_split_tunneling">Split Tunneling</string>
+    <string name="setting_split_tunneling_desc">Select apps to bypass VPN</string>
+    <string name="setting_auto_reconnect">Auto Reconnect</string>
+    <string name="setting_auto_reconnect_desc">Automatically reconnect on disconnect</string>
+    <string name="setting_stealth_mode">Stealth Mode</string>
+    <string name="setting_stealth_mode_desc">Hide app icon from launcher</string>
+    <string name="setting_performance">Performance Mode</string>
+    <string name="setting_performance_desc">Optimize for speed (uses more battery)</string>
+    <string name="setting_compression">Compression</string>
+    <string name="setting_compression_desc">Compress traffic using gzip</string>
+    <string name="setting_dns">DNS Settings</string>
+    <string name="setting_mtu">MTU Size</string>
+    <string name="setting_theme">Theme</string>
+    <string name="setting_language">Language</string>
+
+    <!-- Notifications -->
+    <string name="notif_connected">AnonymousTunnel Connected</string>
+    <string name="notif_disconnected">AnonymousTunnel Disconnected</string>
+    <string name="notif_connecting">AnonymousTunnel Connecting...</string>
+
+    <!-- Errors -->
+    <string name="error_no_config">Please add a configuration first</string>
+    <string name="error_connection_failed">Connection failed. Please check your settings.</string>
+    <string name="error_invalid_config">Invalid configuration format</string>
+    <string name="error_permission_denied">VPN permission denied</string>
+
+    <!-- About -->
+    <string name="about_version">Version %1$s</string>
+    <string name="about_copyright">AnonymousTunnel 2026</string>
+    <string name="about_desc">Advanced VPN tunneling solution with multi-protocol support</string>
+</resources>
