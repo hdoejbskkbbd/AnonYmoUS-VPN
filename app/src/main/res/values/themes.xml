@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AnonymousTunnel" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/accent_orange</item>
+        <item name="colorPrimaryDark">@color/bg_dark</item>
+        <item name="colorAccent">@color/accent_orange</item>
+        <item name="android:colorBackground">@color/bg_dark</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/bg_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="materialButtonStyle">@style/AnonymousButton</item>
+        <item name="cardViewStyle">@style/AnonymousCard</item>
+    </style>
+
+    <style name="AnonymousButton" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/accent_orange</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AnonymousCard" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/bg_card</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">2dp</item>
+    </style>
+
+    <style name="AnonymousTextInput" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/accent_orange</item>
+        <item name="hintTextColor">@color/text_hint</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+    </style>
+</resources>
